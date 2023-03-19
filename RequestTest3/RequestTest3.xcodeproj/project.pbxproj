@@ -16,6 +16,11 @@
 		7523889A29C75F5B0003DD9B /* RequestTest3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523889929C75F5B0003DD9B /* RequestTest3Tests.swift */; };
 		752388A429C75F5B0003DD9B /* RequestTest3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388A329C75F5B0003DD9B /* RequestTest3UITests.swift */; };
 		752388A629C75F5B0003DD9B /* RequestTest3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388A529C75F5B0003DD9B /* RequestTest3UITestsLaunchTests.swift */; };
+		752388B429C75FD40003DD9B /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388B229C75FD40003DD9B /* MyTableViewCell.swift */; };
+		752388B529C75FD40003DD9B /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 752388B329C75FD40003DD9B /* MyTableViewCell.xib */; };
+		752388B729C75FEB0003DD9B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388B629C75FEB0003DD9B /* SecondViewController.swift */; };
+		752388B929C75FF90003DD9B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388B829C75FF90003DD9B /* ThirdViewController.swift */; };
+		752388BB29C761A50003DD9B /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388BA29C761A50003DD9B /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		7523889F29C75F5B0003DD9B /* RequestTest3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestTest3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752388A329C75F5B0003DD9B /* RequestTest3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTest3UITests.swift; sourceTree = "<group>"; };
 		752388A529C75F5B0003DD9B /* RequestTest3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTest3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		752388B229C75FD40003DD9B /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		752388B329C75FD40003DD9B /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		752388B629C75FEB0003DD9B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		752388B829C75FF90003DD9B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		752388BA29C761A50003DD9B /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				7523888429C75F5A0003DD9B /* SceneDelegate.swift */,
 				7523888629C75F5A0003DD9B /* ViewController.swift */,
 				7523888829C75F5A0003DD9B /* Main.storyboard */,
+				752388BA29C761A50003DD9B /* Pizza.swift */,
+				752388B829C75FF90003DD9B /* ThirdViewController.swift */,
+				752388B629C75FEB0003DD9B /* SecondViewController.swift */,
+				752388B229C75FD40003DD9B /* MyTableViewCell.swift */,
+				752388B329C75FD40003DD9B /* MyTableViewCell.xib */,
 				7523888B29C75F5B0003DD9B /* Assets.xcassets */,
 				7523888D29C75F5B0003DD9B /* LaunchScreen.storyboard */,
 				7523889029C75F5B0003DD9B /* Info.plist */,
@@ -232,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7523888F29C75F5B0003DD9B /* LaunchScreen.storyboard in Resources */,
+				752388B529C75FD40003DD9B /* MyTableViewCell.xib in Resources */,
 				7523888C29C75F5B0003DD9B /* Assets.xcassets in Resources */,
 				7523888A29C75F5A0003DD9B /* Main.storyboard in Resources */,
 			);
@@ -258,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752388BB29C761A50003DD9B /* Pizza.swift in Sources */,
 				7523888729C75F5A0003DD9B /* ViewController.swift in Sources */,
+				752388B429C75FD40003DD9B /* MyTableViewCell.swift in Sources */,
 				7523888329C75F5A0003DD9B /* AppDelegate.swift in Sources */,
+				752388B729C75FEB0003DD9B /* SecondViewController.swift in Sources */,
+				752388B929C75FF90003DD9B /* ThirdViewController.swift in Sources */,
 				7523888529C75F5A0003DD9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
