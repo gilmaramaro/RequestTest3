@@ -26,5 +26,4 @@ class MyTableViewCell: UITableViewCell {
         imagePizza.sd_setImage(with: urlPizza)
         namePizza.text = myPizza?.name
     }
-    
 }

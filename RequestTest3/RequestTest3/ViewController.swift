@@ -51,5 +51,10 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let myScreen = storyboard?.instantiateViewController(withIdentifier: "screen2") as? SecondViewController {
+            myScreen.connectionScreen2 = arrayPizza?[indexPath.row]
+            self.navigationController?.pushViewController(myScreen, animated: true)
+        }
+    }
 }

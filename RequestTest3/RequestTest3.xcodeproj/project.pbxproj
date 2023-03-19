@@ -22,6 +22,8 @@
 		752388B729C75FEB0003DD9B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388B629C75FEB0003DD9B /* SecondViewController.swift */; };
 		752388B929C75FF90003DD9B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388B829C75FF90003DD9B /* ThirdViewController.swift */; };
 		752388BB29C761A50003DD9B /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388BA29C761A50003DD9B /* Pizza.swift */; };
+		752388BE29C780210003DD9B /* MyTableViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752388BC29C780210003DD9B /* MyTableViewCellTwo.swift */; };
+		752388BF29C780210003DD9B /* MyTableViewCellTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 752388BD29C780210003DD9B /* MyTableViewCellTwo.xib */; };
 		B1D819F9A387AB2DD799FDC2 /* Pods_RequestTest3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B37E6F6E97A279DFE41A012 /* Pods_RequestTest3.framework */; };
 		DD1398E83A85A596CC9BA4B0 /* Pods_RequestTest3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E9540414BED8DEC034DE27 /* Pods_RequestTest3Tests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +67,8 @@
 		752388B629C75FEB0003DD9B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		752388B829C75FF90003DD9B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		752388BA29C761A50003DD9B /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		752388BC29C780210003DD9B /* MyTableViewCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCellTwo.swift; sourceTree = "<group>"; };
+		752388BD29C780210003DD9B /* MyTableViewCellTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCellTwo.xib; sourceTree = "<group>"; };
 		95368FD774F6ACAC0AF03935 /* Pods-RequestTest3-RequestTest3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTest3-RequestTest3UITests.debug.xcconfig"; path = "Target Support Files/Pods-RequestTest3-RequestTest3UITests/Pods-RequestTest3-RequestTest3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9830C57BBA76F2B86A42498 /* Pods_RequestTest3_RequestTest3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RequestTest3_RequestTest3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEF712122F59E1B5637A582 /* Pods-RequestTest3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTest3.release.xcconfig"; path = "Target Support Files/Pods-RequestTest3/Pods-RequestTest3.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +115,6 @@
 				D10BE14ECA50A90B308EBC06 /* Pods-RequestTest3Tests.debug.xcconfig */,
 				01C13A14FCB0E0E945E455A3 /* Pods-RequestTest3Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,6 +160,8 @@
 				752388BA29C761A50003DD9B /* Pizza.swift */,
 				752388B829C75FF90003DD9B /* ThirdViewController.swift */,
 				752388B629C75FEB0003DD9B /* SecondViewController.swift */,
+				752388BC29C780210003DD9B /* MyTableViewCellTwo.swift */,
+				752388BD29C780210003DD9B /* MyTableViewCellTwo.xib */,
 				752388B229C75FD40003DD9B /* MyTableViewCell.swift */,
 				752388B329C75FD40003DD9B /* MyTableViewCell.xib */,
 				7523888B29C75F5B0003DD9B /* Assets.xcassets */,
@@ -293,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7523888F29C75F5B0003DD9B /* LaunchScreen.storyboard in Resources */,
+				752388BF29C780210003DD9B /* MyTableViewCellTwo.xib in Resources */,
 				752388B529C75FD40003DD9B /* MyTableViewCell.xib in Resources */,
 				7523888C29C75F5B0003DD9B /* Assets.xcassets in Resources */,
 				7523888A29C75F5A0003DD9B /* Main.storyboard in Resources */,
@@ -429,6 +435,7 @@
 				7523888329C75F5A0003DD9B /* AppDelegate.swift in Sources */,
 				752388B729C75FEB0003DD9B /* SecondViewController.swift in Sources */,
 				752388B929C75FF90003DD9B /* ThirdViewController.swift in Sources */,
+				752388BE29C780210003DD9B /* MyTableViewCellTwo.swift in Sources */,
 				7523888529C75F5A0003DD9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
